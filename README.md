@@ -5,9 +5,9 @@
 
 * There will be new records every day and there might also be old records that need to be updated
 
-* Client requires SCD TYPE 01 logic to be in  the warehouse 
+* Client requires SCD TYPE 01 logic to be implemented in the warehouse 
 
-* Also at end of the processing of each day there data  need to be reconciled 
+* Also at end of the processing of each day the data  need to be reconciled 
 
 ## Data ingestion 
 
@@ -18,8 +18,6 @@
 ## Date Summarisation and Warehousing 
 
 * Hive is used to manage the Warehousing part
-
-* Implemented SCD TYPE 02 logic
 
 * Implemented Partitioning on Year & Month for fast retrieval
 
